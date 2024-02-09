@@ -11,13 +11,7 @@ const Header = () => {
     <>
       <header className="flex border items-center justify-between  lg:px-28  md:p-5 p-2 ">
         <div>
-          <Image
-            src={headerlogo}
-            alt=""
-            width={127}
-            height={32}
-            layout="fixed"
-          />
+          <Image src={headerlogo} alt="" width={127} height={32} />
           <span className="md:hidden block">
             <FaArrowLeft />
           </span>

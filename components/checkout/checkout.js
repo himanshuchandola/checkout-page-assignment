@@ -1,6 +1,9 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import TicketDetails from "../ticket/ticketdetails";
+import UserInfo from "../userinfo/details";
+import PaymentBox from "../payment/payment";
+import FAQ from "../faq/faq";
 
 function Checkout() {
   return (
@@ -21,17 +24,15 @@ function Checkout() {
               </p>
             </div>
 
-            {/* <PersonalDetails />
-            <AdditionalInformation />
-            <ModeOfPayment /> */}
+            <UserInfo />
+            <PaymentBox />
           </div>
 
           <div className="-mt-10 max-lg:-mt-0">
             <TicketDetails />
           </div>
         </div>
-
-        {/* <FAQ /> */}
+        <FAQ />
       </main>
     </>
   );

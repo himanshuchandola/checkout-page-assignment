@@ -2,12 +2,11 @@ import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaTrophy } from "react-icons/fa";
-import Rating from "../../public/images/rating.png";
 import { PiTicketFill } from "react-icons/pi";
 import { PiCalendarBlankFill } from "react-icons/pi";
 import { HiClock } from "react-icons/hi2";
 import { BsFillPeopleFill } from "react-icons/bs";
-import { FaPlus } from "react-icons/fa6";
+import { FaPlus, FaStar } from "react-icons/fa6";
 import { PiPiggyBankFill } from "react-icons/pi";
 import { CiCircleInfo } from "react-icons/ci";
 import { PiLockFill } from "react-icons/pi";
@@ -24,7 +23,7 @@ const TicketDetails = () => {
           height={92}
           width={358}
           className="w-full"
-          layout="responsive"
+          style={{ objectFit: "contain" }}
         />
         <div className="absolute p-1 rounded-md bg-[#F9F9FBBF] text-[#1C2024] shadow-lg top-2 left-2 flex items-center gap-1">
           <span>
@@ -42,8 +41,7 @@ const TicketDetails = () => {
       <div className="pt-3 px-3">
         <div className="flex items-center gap-1">
           <span>
-            {/* <FaStar /> */}
-            <img src={Rating} alt="rating star" />
+            <FaStar />
           </span>
           <span className="flex items-center">
             <span>4.9</span>
