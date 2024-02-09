@@ -6,7 +6,7 @@ import { PiLockFill } from "react-icons/pi";
 import { BsInfoCircleFill } from "react-icons/bs";
 import DebitCard from "../../public/images/DebitCard.svg";
 import visa from "../../public/images/visa.svg";
-import MasterCard from "../../public/images/MasterCard.svg";
+import MasterCard from "../../public/images/Mastercard.svg";
 import DinersClub from "../../public/images/DinersClub.svg";
 import PiggyBank from "../../public/images/PiggyBank.svg";
 import ApplePay from "../../public/images/ApplePay.svg";
