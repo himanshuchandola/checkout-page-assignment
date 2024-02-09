@@ -10,7 +10,7 @@ import { FaPlus, FaStar } from "react-icons/fa6";
 import { PiPiggyBankFill } from "react-icons/pi";
 import { CiCircleInfo } from "react-icons/ci";
 import { PiLockFill } from "react-icons/pi";
-import TicketImage from "../../public/images/TicketImage.jpg";
+import TicketImage from "../../public/images/ticketimage.jpg";
 import Image from "next/image";
 
 const TicketDetails = () => {
